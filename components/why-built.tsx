@@ -29,8 +29,7 @@ export default function WhyBuilt() {
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6">
-              Why We
-              <span className="block text-[#25A4FF] font-medium">Built It</span>
+              Why We <span className="text-[#25A4FF] font-medium">Built It</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto mb-8"></div>
           </div>

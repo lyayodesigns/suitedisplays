@@ -30,13 +30,12 @@ export default function Testimonials() {
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6">
-              Who It's
-              <span className="block text-[#25A4FF] font-medium">For</span>
+              Who It's <span className="text-[#25A4FF] font-medium">For</span>
             </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto mb-8"></div>
             <h3 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-8 max-w-3xl mx-auto">
               Built for Teams, Venues & Partners Who Lead.
             </h3>
-            <div className="w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto mb-8"></div>
           </div>
 
           <div className="max-w-4xl mx-auto text-center mb-12">

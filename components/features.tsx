@@ -71,9 +71,8 @@ export default function Features() {
           {/* Header */}
           <div className="text-center mb-24">
             <div className="inline-block">
-              <h2 className="text-5xl md:text-6xl font-light text-slate-900 mb-6">
-                What It
-                <span className="block text-[#25A4FF] font-medium">Does</span>
+              <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6">
+                What It <span className="text-[#25A4FF] font-medium">Does</span>
               </h2>
               <div className="w-32 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto mb-12"></div>
             </div>
@@ -169,20 +168,7 @@ export default function Features() {
             ))}
           </div>
 
-          {/* Bottom CTA */}
-          <div className="text-center mt-20">
-            <div className="inline-block p-8 bg-gradient-to-r from-[#25A4FF]/5 to-[#D4AF37]/5 rounded-2xl">
-              <p className="text-lg text-slate-700 mb-4 font-medium">
-                Ready to see these features in action?
-              </p>
-              <button className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300 hover:scale-105">
-                Schedule Your Demo
-                <svg className="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </button>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>

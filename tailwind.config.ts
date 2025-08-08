@@ -137,6 +137,9 @@ const config: Config = {
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'suite-float': 'suiteFloat 6s ease-in-out infinite',
         'suite-glow': 'suiteGlow 2s ease-in-out infinite alternate',
+        'glow-slow': 'glowSlow 8s ease-in-out infinite alternate',
+        'glow-medium': 'glowMedium 6s ease-in-out infinite alternate',
+        'opacity-pulse': 'opacityPulse 10s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -154,6 +157,20 @@ const config: Config = {
         suiteGlow: {
           '0%': { boxShadow: '0 0 20px rgba(37, 164, 255, 0.3)' },
           '100%': { boxShadow: '0 0 40px rgba(37, 164, 255, 0.6)' },
+        },
+        glowSlow: {
+          '0%': { opacity: '0.3', transform: 'scale(0.95)' },
+          '50%': { opacity: '0.4', transform: 'scale(1)' },
+          '100%': { opacity: '0.35', transform: 'scale(0.98)' },
+        },
+        glowMedium: {
+          '0%': { opacity: '0.25', transform: 'scale(0.97)' },
+          '50%': { opacity: '0.35', transform: 'scale(1.03)' },
+          '100%': { opacity: '0.3', transform: 'scale(1)' },
+        },
+        opacityPulse: {
+          '0%, 100%': { opacity: '0.2' },
+          '50%': { opacity: '0.35' },
         },
       },
       backgroundImage: {

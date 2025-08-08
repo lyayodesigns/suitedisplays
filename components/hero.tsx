@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
-import { ChevronRight, Play } from 'lucide-react'
+import { ChevronRight, Play, ChevronDown } from 'lucide-react'
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -14,14 +14,18 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50 pt-16">
       {/* Background Animation */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#25A4FF] rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-[#D4AF37] rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Blue glow */}
+        <div className="absolute -top-40 -left-40 h-[32rem] w-[32rem] rounded-full blur-3xl opacity-40 bg-[#25A4FF] animate-glow-slow"></div>
+        {/* Gold glow */}
+        <div className="absolute -bottom-52 -right-52 h-[36rem] w-[36rem] rounded-full blur-3xl opacity-30 bg-[#D4AF37] animate-glow-medium"></div>
+        {/* Subtle animation overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50/10 to-blue-50/10 animate-opacity-pulse"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-light text-slate-900 mb-8 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-light text-slate-900 mb-8 leading-tight">
             The First Interactive
             <span className="block bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] bg-clip-text text-transparent font-medium">
               Touchscreen Platform
@@ -55,8 +59,9 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-slate-300 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-slate-400 rounded-full mt-2 animate-pulse"></div>
+        <div className="flex flex-col items-center">
+          <ChevronDown className="h-6 w-6 text-slate-400 stroke-2" />
+          <ChevronDown className="h-5 w-5 text-slate-300 -mt-2 stroke-2" />
         </div>
       </div>
     </section>
