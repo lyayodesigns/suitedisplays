@@ -33,13 +33,12 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="/" aria-label="Suite Display Home" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] rounded-lg flex items-center justify-center">
-              <Monitor className="h-5 w-5 text-white" />
-            </div>
-            <span className="text-xl font-light text-slate-900">
-              Suite <span className="font-semibold text-[#25A4FF]">Displays</span>
-            </span>
+          <a href="/" aria-label="Suite Display Home" className="flex items-center">
+            <img 
+              src="/suite-display- logo.png" 
+              alt="Suite Display Logo" 
+              className="h-40 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
