@@ -5,9 +5,9 @@ import FAQSection from '@/components/faq/faq-section'
 import FAQHero from '@/components/faq/faq-hero'
 
 export const metadata: Metadata = {
-  title: 'FAQ — Suite Displays',
+  title: 'FAQ — Suite Display',
   description:
-    'Frequently asked questions about Suite Displays: customization, connectivity, content management, security, support, and more.',
+    'Frequently asked questions about Suite Display: customization, connectivity, content management, security, support, and more.',
 }
 
 export default function FAQPage() {

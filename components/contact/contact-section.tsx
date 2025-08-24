@@ -102,7 +102,7 @@ export default function ContactSection() {
                     </div>
                     <div className="md:col-span-2">
                       <label className="block text-sm text-slate-600">Company / Organization</label>
-                      <input className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#25A4FF]/30" placeholder="Suite Displays" />
+                      <input className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#25A4FF]/30" placeholder="Suite Display" />
                     </div>
                     <div className="md:col-span-2">
                       <label className="block text-sm text-slate-600">Message</label>

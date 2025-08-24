@@ -67,7 +67,7 @@ const features: Feature[] = [
   {
     title: 'Content Management & Scheduling',
     desc:
-      'Manage all suite displays from a simple, user-friendly dashboard designed for non-technical users.',
+      'Manage all suite display from a simple, user-friendly dashboard designed for non-technical users.',
     bullets: [
       'Drag-and-drop content scheduling and updates',
       'Multi-user access with role-based permissions',

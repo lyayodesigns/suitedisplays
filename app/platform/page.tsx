@@ -9,7 +9,7 @@ import PlatformVenues from '@/components/platform/platform-venues'
 import PlatformCTA from '@/components/platform/platform-cta'
 
 export const metadata: Metadata = {
-  title: 'Platform | Suite Displays',
+  title: 'Platform | Suite Display',
   description:
     'The first digital platform purpose-built for luxury suites: interactive touchscreens, legacy showcases, sponsor branding, live data, and reliable performance.',
 }

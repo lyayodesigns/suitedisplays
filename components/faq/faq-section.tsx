@@ -22,7 +22,7 @@ export default function FAQSection() {
     {
       q: "How is content updated?",
       a:
-        "Content is managed through a secure, cloud-based content management system (CMS) built for ease of use. Authorized users can update suite displays in real time or schedule content in advance, all through an intuitive drag-and-drop interface. This system supports multiple users with customizable permissions to keep content fresh and relevant.",
+        "Content is managed through a secure, cloud-based content management system (CMS) built for ease of use. Authorized users can update suite display in real time or schedule content in advance, all through an intuitive drag-and-drop interface. This system supports multiple users with customizable permissions to keep content fresh and relevant.",
     },
     {
       q: "Is this platform currently in use at any venues?",
@@ -47,7 +47,7 @@ export default function FAQSection() {
     {
       q: "What kind of support is available?",
       a:
-        "We provide dedicated technical support, remote monitoring, and software updates to keep your suite displays running flawlessly throughout the season and beyond.",
+        "We provide dedicated technical support, remote monitoring, and software updates to keep your suite display running flawlessly throughout the season and beyond.",
     },
   ]
 
@@ -60,7 +60,7 @@ export default function FAQSection() {
           </h2>
           <div className="mt-6 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">
-            Everything you need to know about Suite Displays — from customization to security and support.
+            Everything you need to know about Suite Display — from customization to security and support.
           </p>
         </div>
 

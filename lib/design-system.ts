@@ -1,4 +1,4 @@
-// Suite Displays Design System Constants
+// Suite Display Design System Constants
 export const SUITE_COLORS = {
   primary: {
     blue: '#25A4FF',

@@ -24,7 +24,7 @@ export default function ContactHero() {
             Contact <span className="inline bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] bg-clip-text text-transparent font-medium">Us</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
-            We’d love to hear from you. Whether you’re interested in learning more, exploring pilot opportunities, or tailoring Suite Displays for your venue, our team is here to help.
+            We’d love to hear from you. Whether you’re interested in learning more, exploring pilot opportunities, or tailoring Suite Display for your venue, our team is here to help.
           </p>
           <div className="mt-8 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
         </div>

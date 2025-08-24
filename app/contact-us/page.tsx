@@ -5,9 +5,9 @@ import ContactHero from '@/components/contact/contact-hero'
 import ContactSection from '@/components/contact/contact-section'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Suite Displays',
+  title: 'Contact Us | Suite Display',
   description:
-    'Get in touch to learn more about Suite Displays, explore pilot opportunities, or request a personalized demo for your venue.',
+    'Get in touch to learn more about Suite Display, explore pilot opportunities, or request a personalized demo for your venue.',
 }
 
 export default function ContactUsPage() {

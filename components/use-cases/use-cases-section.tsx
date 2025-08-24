@@ -107,7 +107,7 @@ export default function UseCasesSection() {
         <div className="text-center mb-16">
           <span className="inline-block text-sm tracking-widest uppercase text-slate-500">Solutions</span>
           <h2 className="mt-3 text-4xl md:text-5xl font-light text-slate-900 tracking-tight">
-            Where Suite Displays <span className="text-[#25A4FF] font-medium">Shines</span>
+            Where Suite Display <span className="text-[#25A4FF] font-medium">Shines</span>
           </h2>
           <div className="mt-6 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">

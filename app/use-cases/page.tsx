@@ -5,9 +5,9 @@ import UseCasesHero from '@/components/use-cases/use-cases-hero'
 import UseCasesSection from '@/components/use-cases/use-cases-section'
 
 export const metadata: Metadata = {
-  title: 'Use Cases — Suite Displays',
+  title: 'Use Cases — Suite Display',
   description:
-    'Explore Suite Displays use cases across professional sports, universities, sponsors, executive boxes, and sales suites.'
+    'Explore Suite Display use cases across professional sports, universities, sponsors, executive boxes, and sales suites.'
 }
 
 export default function UseCasesPage() {

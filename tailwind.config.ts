@@ -6,7 +6,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Suite Displays Brand Colors
+        // Suite Display Brand Colors
         'suite': {
           'blue': '#25A4FF',
           'blue-dark': '#1E8FE6',

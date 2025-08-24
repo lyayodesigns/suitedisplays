@@ -9,7 +9,7 @@ import Footer from '@/components/footer'
 import Header from '@/components/header'
 
 export const metadata: Metadata = {
-  title: 'Suite Displays - The First Interactive Touchscreen Platform for Luxury Suites',
+  title: 'Suite Display - The First Interactive Touchscreen Platform for Luxury Suites',
   description: 'Interactive touchscreen displays designed exclusively for luxury suites. Elevate the premium seating experience with dynamic content and tailored branding.',
   keywords: 'luxury suites, interactive displays, touchscreen, premium seating, sports venues, fan experience',
 }
