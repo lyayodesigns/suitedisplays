@@ -9,16 +9,12 @@ export const metadata: Metadata = {
   generator: 'v0.dev',
   icons: {
     icon: [
-      { url: '/suite-display- logo.png', sizes: '16x16' },
-      { url: '/suite-display- logo.png', sizes: '32x32' },
-      { url: '/suite-display- logo.png', sizes: '48x48' },
-      { url: '/suite-display- logo.png', sizes: '192x192' },
-      { url: '/suite-display- logo.png', sizes: '512x512' },
+      { url: '/suite-display.png' },
     ],
     apple: [
-      { url: '/suite-display- logo.png', sizes: '180x180' },
+      { url: '/suite-display.png' },
     ],
-    shortcut: '/suite-display- logo.png',
+    shortcut: '/suite-display.png',
   },
 }
 
