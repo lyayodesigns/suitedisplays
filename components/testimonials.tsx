@@ -34,13 +34,13 @@ export default function Testimonials() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto mb-8"></div>
             <h3 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-8 max-w-3xl mx-auto">
-              Built for Teams, Venues & Partners Who Lead.
+              Built for Teams, Venues, & Partners Who Lead.
             </h3>
           </div>
 
           <div className="max-w-4xl mx-auto text-center mb-12">
             <p className="text-xl text-slate-600 leading-relaxed">
-              This platform was built for organizations who want to create the next great fan experience — not repeat yesterday's. Whether you're a pro team, university, or ownership group, our software gives you a new way to impress the most important people in the building.
+              This platform was built for organizations who want to create the next great fan experience—not repeat yesterday's. Whether you're a pro team, university, or ownership group, our software gives you a new way to impress the most important people in the building.
             </p>
           </div>
 

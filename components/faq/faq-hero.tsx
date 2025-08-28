@@ -28,7 +28,7 @@ export default function FAQHero() {
             <span className="block bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] bg-clip-text text-transparent font-medium">Questions</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
-            Learn how Suite Display works — customization, connectivity, CMS, security, support, and more.
+            Learn how Suite Display works—customization, connectivity, CMS, security, support, and more.
           </p>
           <div className="mt-8 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
         </div>

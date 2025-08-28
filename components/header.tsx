@@ -37,7 +37,7 @@ export default function Header() {
             <img 
               src="/suite-display- logo.png" 
               alt="Suite Display Logo" 
-              className="h-40 w-auto object-contain"
+              className="w-48 h-auto object-contain"
             />
           </a>
 

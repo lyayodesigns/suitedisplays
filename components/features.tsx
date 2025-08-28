@@ -25,7 +25,7 @@ const features = [
   {
     icon: Headphones,
     title: 'Built-In Content Control',
-    description: 'Update content in seconds with our intuitive management system. No technical expertise required — just point, click, and publish with enterprise-grade reliability.',
+    description: 'Update content in seconds with our intuitive management system. No technical expertise required—just point, click, and publish with enterprise-grade reliability.',
     highlight: 'Instant Updates'
   },
   {

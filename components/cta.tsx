@@ -51,12 +51,12 @@ export default function CallToAction({ headingFont = "" }: CTAProps) {
             <div className="mt-6 space-y-4 text-neutral-600">
               <p>
                 Our platform turns each suite into a space for intentional storytelling. Whether it's honoring team 
-                history, celebrating sponsors, or showcasing live content — you control the experience. Consistent in 
+                history, celebrating sponsors, or showcasing live content—you control the experience. Consistent in 
                 design. Limitless in expression. Always interactive.
               </p>
               <p>
                 We're opening the platform to a limited number of partners through our pilot program. If you're ready 
-                to reimagine the suite experience — and help shape the future of it — now is the time to begin.
+                to reimagine the suite experience—and help shape the future of it—now is the time to begin.
               </p>
             </div>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">

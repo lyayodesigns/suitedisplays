@@ -7,12 +7,12 @@ export default function FAQSection() {
     {
       q: "Is this just digital signage?",
       a:
-        "No, this is much more than traditional digital signage. Our platform is a fully interactive, custom-built solution designed specifically for luxury suites. It enables dynamic content experiences that engage guests through touch interaction, personalized messaging, and rich multimedia — not just static or looped ads.",
+        "No, this is much more than traditional digital signage. Our platform is a fully interactive, custom-built solution designed specifically for luxury suites. It enables dynamic content experiences that engage guests through touch interaction, personalized messaging, and rich multimedia—not just static or looped ads.",
     },
     {
       q: "Can we customize branding per suite?",
       a:
-        "Absolutely. Every suite can be individually branded to reflect your team’s identity, suite owner preferences, and sponsor partnerships. This includes custom logos, color schemes, typography, and tailored messaging — ensuring a unique and immersive experience for every guest.",
+        "Absolutely. Every suite can be individually branded to reflect your team’s identity, suite owner preferences, and sponsor partnerships. This includes custom logos, color schemes, typography, and tailored messaging—ensuring a unique and immersive experience for every guest.",
     },
     {
       q: "Does it require internet access?",
@@ -60,7 +60,7 @@ export default function FAQSection() {
           </h2>
           <div className="mt-6 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">
-            Everything you need to know about Suite Display — from customization to security and support.
+            Everything you need to know about Suite Display—from customization to security and support.
           </p>
         </div>
 

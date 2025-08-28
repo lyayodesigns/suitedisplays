@@ -41,7 +41,7 @@ export default function About() {
               </h3>
               
               <p className="text-xl text-slate-600 leading-relaxed mb-6">
-                Luxury suites are evolving. Until now, there's been no digital platform designed exclusively for premium spaces. We've built the first — purposefully engineered to elevate the suite experience with touch-enabled storytelling, dynamic content, and tailored branding.
+                Luxury suites are evolving. Until now, there's been no digital platform designed exclusively for premium spaces. We've built the first—purposefully engineered to elevate the suite experience with touch-enabled storytelling, dynamic content, and tailored branding.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed font-medium">

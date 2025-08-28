@@ -21,11 +21,11 @@ export default function PlatformHero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-4xl md:text-5xl font-light text-slate-900 mb-6 leading-tight">
-            The First Digital Platform
+            Touchscreen Software
             <span className="block bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] bg-clip-text text-transparent font-medium">Purpose-Built for Luxury Suites</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
-            Not signage. Not an app. This is a native, fully integrated digital display experience designed exclusively for premium suites — transforming how you engage guests, celebrate legacy, and deliver sponsor value.
+            Not signage. Not an app. This is a native, fully integrated digital display experience designed exclusively for premium suites—transforming how you engage guests, celebrate legacy, and deliver sponsor value.
           </p>
           <div className="mt-8 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
         </div>

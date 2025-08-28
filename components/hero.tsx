@@ -34,7 +34,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            We're redefining what premium seating means — one screen at a time.
+            We're redefining what premium seating means—one screen at a time.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

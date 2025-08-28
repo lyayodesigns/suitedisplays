@@ -8,7 +8,7 @@ export default function UseCasesSection() {
     {
       title: 'Luxury Suites in Professional Sports',
       description:
-        'Transform your suites into immersive hubs that celebrate team pride and enhance the live experience. Our platform showcases championship banners, player profiles, and real-time game data — creating an engaging atmosphere that keeps guests connected and entertained throughout the event.',
+        'Transform your suites into immersive hubs that celebrate team pride and enhance the live experience. Our platform showcases championship banners, player profiles, real-time game data and so much more—creating an engaging atmosphere that keeps guests connected and entertained throughout the event.',
       bullets: [
         'Interactive timelines of championship wins and historic moments',
         'Detailed player and coach profiles with career highlights',
@@ -52,7 +52,7 @@ export default function UseCasesSection() {
     {
       title: 'Stadium Tours & Sales Suites',
       description:
-        'Use digital displays to enrich stadium tours and sales efforts with compelling, interactive content that highlights amenities, history, and availability — helping prospects visualize the premium experience.',
+        'Use digital displays to enrich stadium tours and sales efforts with compelling, interactive content that highlights amenities, history, and availability—helping prospects visualize the premium experience.',
       bullets: [
         'Interactive maps showcasing suite locations and features',
         'Highlight reels of amenities, catering options, and exclusive access benefits',
@@ -111,7 +111,7 @@ export default function UseCasesSection() {
           </h2>
           <div className="mt-6 w-24 h-1 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] mx-auto rounded-full" />
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">
-            Tailored experiences across sports, universities, sponsors, executive boxes, and more.
+          Fully customized experiences for premium seating.
           </p>
         </div>
 

@@ -41,7 +41,7 @@ export default function WhyBuilt() {
             
             <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
               <p>
-                For decades, luxury suites have offered exclusivity, privacy, and top-tier service — but the digital experience has lagged behind. We saw an opportunity to create something no one else had: a display platform built exclusively for the luxury suite environment.
+                For decades, luxury suites have offered exclusivity, privacy, and top-tier service—but the digital experience has lagged behind. We saw an opportunity to create something no one else had: a display platform built exclusively for the luxury suite environment.
               </p>
               
               <p className="text-xl font-medium text-[#25A4FF]">
@@ -51,7 +51,7 @@ export default function WhyBuilt() {
 
             <div className="mt-12 grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <div className="text-3xl font-bold text-[#25A4FF] mb-2">30+</div>
+                <div className="text-3xl font-bold text-[#25A4FF] mb-2">55+</div>
                 <div className="text-slate-600">Years Combined Experience</div>
               </div>
               <div className="bg-white rounded-2xl p-6 shadow-lg">

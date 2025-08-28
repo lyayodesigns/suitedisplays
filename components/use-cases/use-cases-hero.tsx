@@ -17,7 +17,6 @@ export default function UseCasesHero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-4xl md:text-5xl font-light text-slate-900 mb-6 leading-tight">
-            Suite Display
             <span className="block bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] bg-clip-text text-transparent font-medium">Use Cases</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">

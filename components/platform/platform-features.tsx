@@ -67,18 +67,18 @@ const features: Feature[] = [
   {
     title: 'Content Management & Scheduling',
     desc:
-      'Manage all suite display from a simple, user-friendly dashboard designed for non-technical users.',
+      'We handle all of your suite content management for you so your team doesn’t have to. Our intuitive, user-friendly interface makes it simple to review and approve changes, ensuring everything looks perfect without adding extra work to your staff.',
     bullets: [
-      'Drag-and-drop content scheduling and updates',
-      'Multi-user access with role-based permissions',
-      'Preview mode before publishing changes',
+      'Content scheduling and updates fully managed by SuiteDisplay',
+      'Role-based access so staff can easily review or approve',
+      'Preview mode to see updates before they go live',
       'Cloud-based platform with real-time sync and backup',
     ],
   },
   {
     title: 'Reliable Offline Operation',
     desc:
-      'Ensure your displays are always active — even when connectivity fluctuates.',
+      'Ensure your displays are always active—even when connectivity fluctuates.',
     bullets: [
       'Local caching of content for uninterrupted display',
       'Automatic synchronization when the connection is restored',
@@ -88,7 +88,7 @@ const features: Feature[] = [
   {
     title: 'Seamless Integration with Venue Systems',
     desc:
-      'Our platform integrates smoothly with your existing infrastructure — no complex overhauls needed.',
+      'Our platform integrates smoothly with your existing infrastructure—no complex overhauls needed.',
     bullets: [
       'Compatibility with major display hardware brands',
       'Integration with venue data APIs and scoring systems',
@@ -97,7 +97,7 @@ const features: Feature[] = [
     ],
   },
   {
-    title: 'Scalable, Secure & Support-Ready',
+    title: 'Scalable, Secure, & Support-Ready',
     desc:
       'From single suites to entire stadiums, our platform scales effortlessly while keeping data safe and support reliable.',
     bullets: [
@@ -114,7 +114,6 @@ export default function PlatformFeatures() {
     <section className="relative py-20 md:py-28 bg-slate-50">
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <header className="mx-auto max-w-3xl text-center">
-          <p className="text-xs font-medium uppercase tracking-wider text-slate-500">3. Features (In-depth)</p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-slate-900">
             <span className="text-[#25A4FF] font-medium">Features</span> That Elevate Every Suite Experience
           </h2>
