@@ -49,17 +49,12 @@ export default function About() {
               </p>
             </div>
 
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-[#25A4FF]/10 to-[#D4AF37]/10 rounded-3xl p-8 flex items-center justify-center">
-                <div className="w-full h-full bg-white rounded-2xl shadow-2xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-20 h-20 bg-gradient-to-r from-[#25A4FF] to-[#D4AF37] rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <div className="w-8 h-8 bg-white rounded-full"></div>
-                    </div>
-                    <p className="text-slate-600 font-medium">Innovation Meets Elegance</p>
-                  </div>
-                </div>
-              </div>
+            <div className="relative max-w-xl mx-auto w-full">
+              <img
+                src="/images/about-banner.webp"
+                alt="SuiteDisplays interactive touchscreen"
+                className="w-full h-auto object-cover rounded-2xl border border-slate-200 shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              />
             </div>
           </div>
         </div>
