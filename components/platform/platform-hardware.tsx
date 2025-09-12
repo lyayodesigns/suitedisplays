@@ -24,11 +24,11 @@ export default function PlatformHardware() {
           {/* Visual */}
           <div className="lg:col-span-7">
             <div className="relative overflow-hidden rounded-xl ring-1 ring-slate-200">
-              <div className="aspect-square w-full">
+              <div className="aspect-[16/10] w-full">
                 <img
                   src="/images/platform.webp"
                   alt="Platform hardware illustration"
-                  className="h-full w-full object-contain"
+                  className="h-full w-full object-cover"
                 />
               </div>
             </div>
