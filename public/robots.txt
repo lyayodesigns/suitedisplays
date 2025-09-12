@@ -1,0 +1,5 @@
+# robots.txt for https://suitedisplay.com/
+User-agent: *
+Allow: /
+
+Sitemap: https://suitedisplay.com/sitemap.xml
